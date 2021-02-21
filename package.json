@@ -1,0 +1,27 @@
+{
+  "name": "react-boilerplate",
+  "version": "1.0",
+  "description": "demo app",
+  "main": "index.js",
+  "repository": "https://github.com/SandarshSingh/ReactApp.git",
+  "author": "Sandarsh",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --hot --open",
+    "build": "webpack --config webpack.config.js --mode production"
+  },
+  "dependencies": {
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.17",
+    "@babel/preset-env": "^7.12.17",
+    "@babel/preset-react": "^7.12.13",
+    "babel-loader": "^8.2.2",
+    "webpack": "^5.23.0",
+    "webpack-cli": "^4.5.0",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
