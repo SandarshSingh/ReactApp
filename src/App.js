@@ -1,7 +1,7 @@
 import React from "react";
 
 const App = () => (
-    <div>It's done<div>
+    <div>It's done</div>
   )
 
 

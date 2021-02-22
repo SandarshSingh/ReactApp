@@ -18,7 +18,7 @@ Create babel file `.bable`
 ```
 Webpack
 
--yarn add webpack webpack-cli webpack-dev-server
+-yarn add webpack webpack-cli webpack-dev-server html-webpack-plugin
 
 create webpack.config.js
 
